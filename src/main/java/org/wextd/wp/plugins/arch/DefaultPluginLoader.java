@@ -37,7 +37,7 @@ public class DefaultPluginLoader implements PluginLoader {
 	}
 
 	public Map<String, List<Plugin>> loadPlugins() {
-		Map<String, List<Plugin>> plugins = new HashMap<>();
+		Map<String, List<Plugin>> plugins = new HashMap<String, List<Plugin>>();
 		File plugs = new File(PLUGIN_DIR);
 		File[] jars = plugs.listFiles(new FileFilter() {
 			@Override

@@ -37,7 +37,7 @@ public class KeyRenderer {
 	}
 
 	public List<File> getWatchFiles() throws NoWatchPathsAvailableException {
-		ArrayList<File> al = new ArrayList<>();
+		ArrayList<File> al = new ArrayList<File>();
 
 		if (configMappings.get(WATCH_KEY) == null) {
 			throw new NoWatchPathsAvailableException();
