@@ -1,0 +1,14 @@
+/bin
+/build
+/gradle
+/.gradle
+/wextdgui
+/gradlew.bat
+/gradlew
+/config.json*
+*.jar
+/.settings
+/.project
+/plugins
+/.classpath
+/tmp
